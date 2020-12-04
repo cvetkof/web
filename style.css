@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.table-header {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.td_right {
+    font-size: 25px;
+    text-align: right;
+}
+
+.border {
+    border: 1px solid #ddd;
+}
+
+.img_style {
+    width: 30px;
+    height: 30px;
+}
+
+.table1 {
+    margin: 0 0 0 10%;
+}
+
+.table-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0 0 0;
+}
