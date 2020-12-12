@@ -1,0 +1,10 @@
+{
+	"editor.tabSize": 3,
+	"files.autoSave": "onWindowChange",
+	"html.format.endWithNewline": true,
+	"html.format.indentInnerHtml": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"workbench.settings.useSplitJSON": true,
+	"editor.insertSpaces": false
+}
