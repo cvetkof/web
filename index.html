@@ -8,99 +8,78 @@
     </head>
 
     <body>
-        <div class="content">
-            <div class="row">
-                <div class="row-column">
-                    <div class="row-column-header">Общая стоимость</div>
-                    <div class="rubl">
-                        <div class="row-column-txt row-column-txt-r">1000000</div>
-                        <div class="R"></div>
-                    </div>
-                    <div class="row-column-se">
-                        <div class="dollar">
-                            <div class="row-column-txt">30000</div>
-                            <div class="S"></div>
-                        </div>
-                        <div class="euro">
-                            <div class="row-column-txt">20000</div>
-                            <div class="E"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="line"></div>
-                <div class="row-column">
-                    <div class="row-column-header">Изменение за сутки</div>
-                    <div class="rubl">
-                        <div class="row-column-txt row-column-txt-r">+1000</div>
-                        <div class="R"></div>
-                    </div>
-                    <div class="row-column-se">
-                        <div class="dollar">
-                            <div class="row-column-txt">+30</div>
-                            <div class="S"></div>
-                        </div>
-                        <div class="euro">
-                            <div class="row-column-txt">+20</div>
-                            <div class="E"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="line"></div>
-                <div class="row-column-3">
-                    <div class="row-column-3-row">
-                        <div class="row-column-header-3">Курс валюты</div>
-                        <div class="row-column-se-mini">
-                            <div class="dollar-3">
-                                <div class="row-column-txt-3">75</div>
-                                <div class="S-3"></div>
-                            </div>
-                            <div class="euro-3">
-                                <div class="row-column-txt-3">85</div>
-                                <div class="E-3"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row-column-3-row">
-                        <div class="row-column-header-3">Изменение за все время</div>
-                        <div class=" row-column-txt-3">1000</div>
-                    </div>
-                    <div class="row-column-3-row">
-                        <div class="row-column-header-3">Количество бумаг</div>
-                        <div class=" row-column-txt-3">30</div>
-                    </div>
-                    <div class="row-column-3-row">
-                        <div class="row-column-header-3">Годовая доходность</div>
-                        <div class=" row-column-txt-3">27%</div>
-                    </div>
-                    <div class="row-column-3-row">
-                        <div class="row-column-header-3">Возраст портфеля</div>
-                        <div class=" row-column-txt-3">365</div>
-                    </div>
+        <header class="row">
+            <div class="row-column">
+                <div class="row-column-header">Общая стоимость</div>
+                <div class="row-column-txt row-column-txt-r">1000000<small>.00</small></div>
+                <div class="row-column-valuta">
+                    <div class="row-column-txt row-column-txt-s">30000<small>.00</small></div>
+                    <div class="row-column-txt row-column-txt-e">20000<small>.00</small></div>
                 </div>
             </div>
-            <div class="mainwindow">
-                <div class="mainwindow-table">
-                    <div class="line-horisontal"></div>
-                    <div class="row-column-header">Состав портфеля</div>
-                    <div class="mainwindow-table-list">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Perferendis, laudantium a aliquid impedit voluptatum ea, eveniet harum natus sit illum
-                        sunt!
-                        Provident corporis a sunt reiciendis. Atque nostrum possimus neque.</div>
-                </div>
-                <div class="mainwindow-info">
-                    <div class="line-horisontal"></div>
-                    <div class="row-column-header">Информация о бумаге</div>
-                    <div class="mainwindow-info-list">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Quas
-                        molestiae, explicabo fugiat totam modi ea blanditiis numquam quasi necessitatibus odit
-                        reiciendis laudantium pariatur repellendus inventore, laboriosam vel, molestias at aut?
-                    </div>
+            <div class="line"></div>
+
+            <div class="row-column">
+                <div class="row-column-header">Изменение за сутки</div>
+                <div class="row-column-txt row-column-txt-r">+1000<small>.00</small></div>
+                <div class="row-column-valuta">
+                    <div class="row-column-txt row-column-txt-s">+30<small>.00</small></div>
+                    <div class="row-column-txt row-column-txt-e">+20<small>.00</small></div>
                 </div>
             </div>
+            <div class="line"></div>
+
+            <div class="row-column row-column-3">
+                <div class="row-column-3-row">
+                    <div class="row-column-header-3">Курс валюты</div>
+                    <div class="row-column-se-mini">
+                        <div class="row-column-txt-3 row-column-txt-s">75<small>.00</small></div>
+                        <div class="row-column-txt-3 row-column-txt-e">85<small>.00</small></div>
+                    </div>
+                </div>
+                <div class="row-column-3-row">
+                    <div class="row-column-header-3">Изменение за все время</div>
+                    <div class=" row-column-txt-3">1000<small>.00</small></div>
+                </div>
+                <div class="row-column-3-row">
+                    <div class="row-column-header-3">Количество бумаг</div>
+                    <div class=" row-column-txt-3">30</div>
+                </div>
+                <div class="row-column-3-row">
+                    <div class="row-column-header-3">Годовая доходность</div>
+                    <div class=" row-column-txt-3">27<small>.00</small>%</div>
+                </div>
+                <div class="row-column-3-row">
+                    <div class="row-column-header-3">Возраст портфеля</div>
+                    <div class=" row-column-txt-3">365</div>
+                </div>
+            </div>
+        </header>
+
+        <main class="mainwindow">
+            <div class="mainwindow-table">
+                <div class="line-horisontal"></div>
+                <div class="row-column-header">Состав портфеля</div>
+                <div class="mainwindow-table-list">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis, laudantium a aliquid impedit voluptatum ea, eveniet harum natus sit illum
+                    sunt!
+                    Provident corporis a sunt reiciendis. Atque nostrum possimus neque.</div>
+            </div>
+            <div class="mainwindow-info">
+                <div class="line-horisontal"></div>
+                <div class="row-column-header">Информация о бумаге</div>
+                <div class="mainwindow-info-list">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Quas
+                    molestiae, explicabo fugiat totam modi ea blanditiis numquam quasi necessitatibus odit
+                    reiciendis laudantium pariatur repellendus inventore, laboriosam vel, molestias at aut?
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
             <div class="line-horisontal"></div>
-            <footer class="footer">footer</footer>
-        </div>
-        </div>
+            footer
+        </footer>
     </body>
 
 </html>
