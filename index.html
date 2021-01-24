@@ -1,85 +1,129 @@
 <!doctype html>
-<html>
+<html lang="ru">
 
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        <title>test</title>
-    </head>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap"
+			rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<title>test</title>
+	</head>
 
-    <body>
-        <header class="row">
-            <div class="row-column">
-                <div class="row-column-header">Общая стоимость</div>
-                <div class="row-column-txt row-column-txt-r">1000000<small>.00</small></div>
-                <div class="row-column-valuta">
-                    <div class="row-column-txt row-column-txt-s">30000<small>.00</small></div>
-                    <div class="row-column-txt row-column-txt-e">20000<small>.00</small></div>
-                </div>
-            </div>
-            <div class="line"></div>
+	<body>
+		<header class="header">
+			<div class="header-first">
+				<div class="header-conteiner">
+					<div class="header-name">
+						<a class="header-name-link" href="index.html">DICHINVEST</a>
+					</div>
+					<nav class="header-nav">
+						<a class="header-nav-link" href="#">Настройки</a>
+						<a class="header-nav-link" href="#">Поддержка</a>
+						<a class="header-nav-link" href="#">О проекте</a>
+					</nav>
+				</div>
+				<div class="header-logo-zindex">
+					<a href="index.html"><img class="header-logo" src=" img/graf.png" alt="sorry"></a>
+				</div>
+			</div>
+			<div class="header-second">
+				<div class="header-second-zindex"><a href=""><img class="header-second-profil" src="img/prof.png"
+							alt=""></a>
+				</div>
+				<div class="header-second-zindex">
+					<select class="header-second-select" name="portfolio">
+						<option selected value="">Выберите портфель</option>
+						<option value="">Индексный</option>
+						<option value="">Агрессивный</option>
+						<option value="">Пассивный</option>
+						<option value="">БКС</option>
+						<option value="">Сбер</option>
+					</select>
+				</div>
+				<div class="row-name">Аналитика портфеля</div>
+			</div>
+		</header>
 
-            <div class="row-column">
-                <div class="row-column-header">Изменение за сутки</div>
-                <div class="row-column-txt row-column-txt-r">+1000<small>.00</small></div>
-                <div class="row-column-valuta">
-                    <div class="row-column-txt row-column-txt-s">+30<small>.00</small></div>
-                    <div class="row-column-txt row-column-txt-e">+20<small>.00</small></div>
-                </div>
-            </div>
-            <div class="line"></div>
+		<main class="row">
+			<div class="row-main">
+				<div class="line first-line"></div>
+				<div class="row-column">
+					<div class="row-column-header">Общая стоимость</div>
+					<div class="row-column-txt row-column-txt-r">1000000<small>.00</small></div>
+					<div class="row-column-valuta">
+						<div class="row-column-txt row-column-txt-s">30000<small>.00</small></div>
+						<div class="row-column-txt row-column-txt-e">20000<small>.00</small></div>
+					</div>
+				</div>
+				<div class="line"></div>
 
-            <div class="row-column row-column-3">
-                <div class="row-column-3-row">
-                    <div class="row-column-header-3">Курс валюты</div>
-                    <div class="row-column-se-mini">
-                        <div class="row-column-txt-3 row-column-txt-s">75<small>.00</small></div>
-                        <div class="row-column-txt-3 row-column-txt-e">85<small>.00</small></div>
-                    </div>
-                </div>
-                <div class="row-column-3-row">
-                    <div class="row-column-header-3">Изменение за все время</div>
-                    <div class=" row-column-txt-3">1000<small>.00</small></div>
-                </div>
-                <div class="row-column-3-row">
-                    <div class="row-column-header-3">Количество бумаг</div>
-                    <div class=" row-column-txt-3">30</div>
-                </div>
-                <div class="row-column-3-row">
-                    <div class="row-column-header-3">Годовая доходность</div>
-                    <div class=" row-column-txt-3">27<small>.00</small>%</div>
-                </div>
-                <div class="row-column-3-row">
-                    <div class="row-column-header-3">Возраст портфеля</div>
-                    <div class=" row-column-txt-3">365</div>
-                </div>
-            </div>
-        </header>
+				<div class="row-column">
+					<div class="row-column-header">Изменение за сутки</div>
+					<div class="row-column-txt row-column-txt-r">+1000<small>.00</small></div>
+					<div class="row-column-valuta">
+						<div class="row-column-txt row-column-txt-s">+30<small>.00</small></div>
+						<div class="row-column-txt row-column-txt-e">+20<small>.00</small></div>
+					</div>
+				</div>
+				<div class="line"></div>
 
-        <main class="mainwindow">
-            <div class="mainwindow-table">
-                <div class="line-horisontal"></div>
-                <div class="row-column-header">Состав портфеля</div>
-                <div class="mainwindow-table-list">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Perferendis, laudantium a aliquid impedit voluptatum ea, eveniet harum natus sit illum
-                    sunt!
-                    Provident corporis a sunt reiciendis. Atque nostrum possimus neque.</div>
-            </div>
-            <div class="mainwindow-info">
-                <div class="line-horisontal"></div>
-                <div class="row-column-header">Информация о бумаге</div>
-                <div class="mainwindow-info-list">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quas
-                    molestiae, explicabo fugiat totam modi ea blanditiis numquam quasi necessitatibus odit
-                    reiciendis laudantium pariatur repellendus inventore, laboriosam vel, molestias at aut?
-                </div>
-            </div>
-        </main>
+				<div class="row-column row-column-3">
+					<div class="row-column-3-row">
+						<div class="row-column-header-3">Курс валюты</div>
+						<div class="row-column-se-mini">
+							<div class="row-column-txt-3 row-column-txt-s">75<small>.00</small></div>
+							<div class="row-column-txt-3 row-column-txt-e">85<small>.00</small></div>
+						</div>
+					</div>
+					<div class="row-column-3-row">
+						<div class="row-column-header-3">Общая прибыль</div>
+						<div class=" row-column-txt-3">+1000<small>.00</small></div>
+					</div>
+					<div class="row-column-3-row">
+						<div class="row-column-header-3">Количество бумаг</div>
+						<div class=" row-column-txt-3">30</div>
+					</div>
+					<div class="row-column-3-row">
+						<div class="row-column-header-3">Годовая доходность</div>
+						<div class=" row-column-txt-3">27<small>.00</small> %</div>
+					</div>
+					<div class="row-column-3-row">
+						<div class="row-column-header-3">Возраст портфеля</div>
+						<div class=" row-column-txt-3">365</div>
+					</div>
+					<div class="row-column-3-row">
+						<div class="row-column-header-3">Инфляция</div>
+						<div class=" row-column-txt-3">123</div>
+					</div>
+				</div> <!-- row-column-3 -->
+			</div> <!-- row-main -->
+		</main>
 
-        <footer class="footer">
-            <div class="line-horisontal"></div>
-            footer
-        </footer>
-    </body>
+		<div class="mainwindow">
+			<div class="mainwindow-table">
+				<div class="line-horisontal"></div>
+				<div class="row-column-header">Состав портфеля</div>
+				<div class="mainwindow-table-list">
+					<div class="page-link"><a class="a" href="stockPage.html">Акции</a></div>
+					<div class="page-link"><a class="a" href="stockPage.html">Облигации</a></div>
+					<div class="page-link"><a class="a" href="stockPage.html">ETF/ПИФ</a></div>
+					<div class="page-link"><a class="a" href="stockPage.html">Валюта</a></div>
+				</div>
+			</div>
+			<div class="mainwindow-info">
+				<div class="line-horisontal"></div>
+				<div class="row-column-header">Информация о бумаге</div>
+				<div class="mainwindow-info-list"></div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="line-horisontal"></div>
+			footer
+		</footer>
+
+		<script src="js/script.js"></script>
+	</body>
 
 </html>
