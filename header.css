@@ -1,0 +1,117 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+/* ---header--- */
+
+.header {
+
+}
+
+.header-first {
+	/* background-color: #049bf3; */
+	background-color: #5c92d2;
+
+	width: 100%;
+
+	position: relative;
+	position: fixed;
+	z-index: 3;
+}
+
+.header-conteiner {
+	padding: 7px 15px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-name {
+	z-index: 2;
+}
+
+.header-name-link {
+	font-weight: 600;
+	font-size: 1.2rem;
+	color: white;
+	text-decoration: none;
+}
+
+.header-logo-zindex {
+	position: absolute;
+	top: 2px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.header-logo {
+	display: block;
+	height: 32px;
+}
+
+.header-nav {
+	z-index: 2;
+}
+
+.header-nav-link {
+	font-size: 0.9rem;
+	color: white;
+	text-decoration: none;
+
+	margin-left: 12px;
+
+	transition: color 0.2s;
+}
+
+.header-second {
+	margin-top: 42px;
+	padding-left: 10px;
+	background-color: none;
+
+	display: flex;
+	align-items: center;
+
+	position: relative;
+}
+
+.header-second-zindex {
+	z-index: 1;
+}
+
+.header-second-profil {
+	height: 30px;
+}
+
+.header-second-select {
+	display: block;
+
+	border: none;
+	/* background-color: #049bf321; */
+	border-radius: 2px;
+
+	height: 23px;
+	margin-left: 15px;
+	font-family: inherit;
+	font-size: 0.8rem;
+}
+
+.row-name {
+	font-size: 1.1rem;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #1f334b;
+	text-align: center;
+
+	width: 100%;
+	position: absolute;
+}
+
+.line {
+	width: 1px;
+	height: 100px;
+	background-color: #5c92d280;
+}

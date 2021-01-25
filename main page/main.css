@@ -7,6 +7,8 @@ body {
 
 	display: flex;
 	flex-direction: column;
+
+	background-color: #5c91d210;
 }
 
 *,
@@ -17,141 +19,33 @@ body {
 
 
 
-/* ---header--- */
-
-.header {
-
-}
-
-.header-first {
-	background-color: #049bf3;
-
-	width: 100%;
-
-	position: relative;
-	position: fixed;
-	z-index: 3;
-}
-
-.header-conteiner {
-	padding: 7px 15px;
-
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.header-name {    
-	z-index: 2;
-}
-
-.header-name-link {
-	font-weight: 600;
-	font-size: 1.2rem;
-	color: white;
-	text-decoration: none;
-}
-
-.header-logo-zindex {
-	position: absolute;
-	top: 6px;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-}
-
-.header-logo {
-	display: block;
-	height: 20px;
-}
-
-.header-nav {
-	z-index: 2;
-}
-
-.header-nav-link {
-	font-size: 0.9rem;
-	color: white;
-	text-decoration: none;
-
-	margin-left: 12px;
-
-	transition: color 0.2s;
-}
-
-.header-second {
-	box-shadow: 0 0 10px #0458f362;
-	margin-top: 42px;
-	padding-left: 10px;
-	background-color: white;
-
-	display: flex;
-	align-items: center;
-
-	position: relative;
-}
-
-.header-second-profil {
-	height: 30px;
-}
-
-.header-second-select {
-	display: block;
-
-	border: none;
-	background-color: #049bf321;
-	border-radius: 2px;
-
-	height: 23px;
-	margin-left: 15px;
-	font-family: inherit;
-	font-size: 0.8rem;
-}
-
-.row-name {
-	font-size: 1.1rem;
-	font-weight: 600;
-	letter-spacing: 2px;
-	color: #000272;
-	text-align: center;
-
-	width: 100%;
-	position: absolute;
-}
-
-.header-second-zindex {
-	z-index: 1;
-}
-
-
-
 
 /* ---main--- */
 
 .row {
-	margin: 15px 0 0 0;
-	padding: 0 15px;
+	margin: 5px 10px 0 10px;
 }
 
 .row-main {
 	display: flex;
+	align-items: center;
+	/* box-shadow: 0 0 3px #0458f362; */
+	background-color: #1f334b;
+	border-radius: 3px;
 }
 
 .row-column {
 	flex: 1 0 300px;
+	height: 130px;
 }
 
 .row-column-3 {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin: 0 5px 0 0;
-	max-width: 380px;
-}
-
-.line {
-	width: 1px;
-	background-color: #049bf3;
+	max-width: 350px;
+	padding: 5px;
+	margin-left: 15px;
 }
 
 .first-line {
@@ -162,15 +56,17 @@ body {
 	font-size: 0.9rem;
 	font-weight: 600;
 	text-align: center;
-	color: #000272;
-	padding: 10px 0;
+	/* color: #000272; */
+	color: white;
+	padding: 5px 0;
 	letter-spacing: 2px;
-	background-color: #049bf321;
+	/* background-color: #049bf321; */
 }
 
 .row-column-txt {
 	font-size: 1.1rem;
 	transition: color 0.1s linear;
+	color: white;
 }
 
 .row-column-txt-r {
@@ -202,7 +98,7 @@ body {
 .row-column-3-row {
 	display: flex;
 	justify-content: space-between;
-	padding: 0 0 0 15px;
+	padding: 0 0 0 0px;
 }
 
 .row-column-header-3 {
@@ -218,10 +114,17 @@ body {
 	justify-content: space-between;
 }
 
+.block-header-3 {
+	color: white;
+}
+
 .row-column-txt-3 {
 	font-size: 1rem;
 	transition: color 0.1s linear;
+	color: white;
+	padding-right: 5px;
 }
+
 
 
 
@@ -231,25 +134,26 @@ body {
 .mainwindow {
 	display: flex;
 	flex: 1 1 auto;
-	/* box-shadow: 0 0 10px #0458f362; */
-	margin: 20px 15px;
+	margin: 10px;
 }
 
 .mainwindow-table {
-	width: 30%;
-	margin: 10px 5px 10px 0px;
+	width: 40%;
+	margin: 0px 5px 10px 0px;
 	display: flex;
 	flex-direction: column;
 	height: 700px;
-	/* border: 1px solid #d5d921; */
+	box-shadow: 0 0 3px #0458f362;
+	border-radius: 2px;
 }
 
 .mainwindow-info {
-	/* border: 1px solid #d5d921; */
-	width: 70%;
-	margin: 10px 0px 10px 5px;
+	width: 60%;
+	margin: 0px 0px 10px 5px;
 	display: flex;
 	flex-direction: column;
+	box-shadow: 0 0 3px #0458f362;
+	border-radius: 2px;
 }
 
 .line-horisontal {
@@ -257,24 +161,43 @@ body {
 	background-color: #049bf3;
 }
 
+.mainwindow-header {
+	font-size: 0.9rem;
+	font-weight: 600;
+	text-align: center;
+	color: #1f334b;
+	padding: 5px 0;
+	letter-spacing: 2px;
+	/* background-color: #049bf321; */
+}
+
 .mainwindow-table-list {
 	padding: 10px;
 }
 
 .page-link {
-	padding: 5px 0px;
+	padding: 15px 0px;
 }
 
 .a {
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: black;
 	text-decoration: none;
 }
 
-.mainwindow-info-list {
+.mainwindow-info-graph {
 	padding: 10px;
-	color: black;
+	height: 150px;
 }
+
+.mainwindow-info-diagram {
+	padding: 10px;
+}
+
+
+
+
+/* ---footer--- */
 
 .footer {
 	background-color: #049bf321;
@@ -284,23 +207,19 @@ body {
 
 
 
-/* ---footer--- */
-
-
-
 
 /* ---псевдоклассы--- */
 
 .row-column-txt:hover {
 	cursor: default;
-	color: #000272;
+	/* color: #000272; */
 	font-weight: 500;
 }
 
 .row-column-txt-3:hover {
 	font-weight: 500;
 	cursor: default;
-	color: #000272;
+	/* color: #000272; */
 }
 
 .header-nav-link:hover {

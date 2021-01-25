@@ -6,8 +6,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap"
 			rel="stylesheet">
-		<link rel="stylesheet" href="style.css">
-		<title>test</title>
+		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="../header.css">
+		<title>DICHINVEST</title>
 	</head>
 
 	<body>
@@ -24,12 +25,15 @@
 					</nav>
 				</div>
 				<div class="header-logo-zindex">
-					<a href="index.html"><img class="header-logo" src=" img/graf.png" alt="sorry"></a>
+					<a href="../main page/index.html">
+						<img class="header-logo" src="../img/icons.png" alt="sorry">
+					</a>
 				</div>
-			</div>
+			</div> <!-- header-first -->
+
 			<div class="header-second">
-				<div class="header-second-zindex"><a href=""><img class="header-second-profil" src="img/prof.png"
-							alt=""></a>
+				<div class="header-second-zindex">
+					<a href=""><img class="header-second-profil" src="../img/prof.png" alt="sorry"></a>
 				</div>
 				<div class="header-second-zindex">
 					<select class="header-second-select" name="portfolio">
@@ -42,12 +46,11 @@
 					</select>
 				</div>
 				<div class="row-name">Аналитика портфеля</div>
-			</div>
+			</div> <!-- header-second -->
 		</header>
 
 		<main class="row">
 			<div class="row-main">
-				<div class="line first-line"></div>
 				<div class="row-column">
 					<div class="row-column-header">Общая стоимость</div>
 					<div class="row-column-txt row-column-txt-r">1000000<small>.00</small></div>
@@ -57,7 +60,6 @@
 					</div>
 				</div>
 				<div class="line"></div>
-
 				<div class="row-column">
 					<div class="row-column-header">Изменение за сутки</div>
 					<div class="row-column-txt row-column-txt-r">+1000<small>.00</small></div>
@@ -67,33 +69,28 @@
 					</div>
 				</div>
 				<div class="line"></div>
-
 				<div class="row-column row-column-3">
 					<div class="row-column-3-row">
-						<div class="row-column-header-3">Курс валюты</div>
+						<div class="block-header-3">Курс валюты</div>
 						<div class="row-column-se-mini">
 							<div class="row-column-txt-3 row-column-txt-s">75<small>.00</small></div>
 							<div class="row-column-txt-3 row-column-txt-e">85<small>.00</small></div>
 						</div>
 					</div>
 					<div class="row-column-3-row">
-						<div class="row-column-header-3">Общая прибыль</div>
+						<div class="block-header-3">Общая прибыль</div>
 						<div class=" row-column-txt-3">+1000<small>.00</small></div>
 					</div>
 					<div class="row-column-3-row">
-						<div class="row-column-header-3">Количество бумаг</div>
-						<div class=" row-column-txt-3">30</div>
-					</div>
-					<div class="row-column-3-row">
-						<div class="row-column-header-3">Годовая доходность</div>
+						<div class="block-header-3">Годовая доходность</div>
 						<div class=" row-column-txt-3">27<small>.00</small> %</div>
 					</div>
 					<div class="row-column-3-row">
-						<div class="row-column-header-3">Возраст портфеля</div>
+						<div class="block-header-3">Возраст портфеля</div>
 						<div class=" row-column-txt-3">365</div>
 					</div>
 					<div class="row-column-3-row">
-						<div class="row-column-header-3">Инфляция</div>
+						<div class="block-header-3">Инфляция</div>
 						<div class=" row-column-txt-3">123</div>
 					</div>
 				</div> <!-- row-column-3 -->
@@ -102,19 +99,22 @@
 
 		<div class="mainwindow">
 			<div class="mainwindow-table">
-				<div class="line-horisontal"></div>
-				<div class="row-column-header">Состав портфеля</div>
+				<!-- <div class="line-horisontal"></div> -->
+				<div class="mainwindow-header">Состав портфеля</div>
 				<div class="mainwindow-table-list">
-					<div class="page-link"><a class="a" href="stockPage.html">Акции</a></div>
-					<div class="page-link"><a class="a" href="stockPage.html">Облигации</a></div>
-					<div class="page-link"><a class="a" href="stockPage.html">ETF/ПИФ</a></div>
-					<div class="page-link"><a class="a" href="stockPage.html">Валюта</a></div>
+					<div class="page-link"><a class="a" href="../main stock page/stock page.html">Акции</a></div>
+					<div class="page-link"><a class="a" href="../main stock page/stock page.html">Облигации</a></div>
+					<div class="page-link"><a class="a" href="../main stock page/stock page.html">ETF/ПИФ</a></div>
+					<div class="page-link"><a class="a" href="../main stock page/stock page.html">Валюта</a></div>
 				</div>
 			</div>
 			<div class="mainwindow-info">
-				<div class="line-horisontal"></div>
-				<div class="row-column-header">Информация о бумаге</div>
-				<div class="mainwindow-info-list"></div>
+				<!-- <div class="line-horisontal"></div> -->
+				<div class="mainwindow-header">Стоимость портфеля</div>
+				<div class="mainwindow-info-graph">график стоимости портфеля</div>
+				<!-- <div class="line-horisontal"></div> -->
+				<div class="mainwindow-header">Распределение активов</div>
+				<div class="mainwindow-info-diagram">диаграмма распределения активов</div>
 			</div>
 		</div>
 

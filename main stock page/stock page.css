@@ -1,0 +1,124 @@
+body {
+	padding: 0;
+	margin: 0;
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+
+/* --- stockPage --- */
+
+.stockPage {
+	display: flex;	
+}
+
+.stockPage-table {
+	width: 40%;
+	margin: 10px 5px 10px 10px;
+	display: flex;
+	flex-direction: column;
+	height: 700px;
+	box-shadow: 0 0 3px #0458f362;
+	border-radius: 3px;
+}
+
+.stockPage-header {
+	font-size: 0.9rem;
+	font-weight: 600;
+	text-align: center;
+	color: #1f334b;
+	padding: 5px 0;
+	letter-spacing: 2px;
+}
+
+.table-table {
+	padding: 10px;
+	height: 500px;
+	border: solid 1px black;
+}
+.stockPage-info {
+	width: 60%;
+	margin: 10px 10px 0px 5px;
+	display: flex;
+	flex-direction: column;
+	height: 700px;
+	box-shadow: 0 0 3px #0458f362;
+	border-radius: 3px;
+}
+
+.stockPage-row {
+	display: flex;
+	background-color: #1f334b;
+	border-radius: 3px;
+	align-items: center;
+}
+
+.row-line {
+	width: 1px;
+	height: 50px;
+	background-color: #5c91d280;
+}
+
+.row-column{
+	flex: 1 0 200px;
+	color: white;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.column-txt {
+	font-size: 1.2rem;
+	padding: 10px;
+}
+
+.rub::after {
+	content: " ₽";
+}
+
+.stockPage-diagram {
+	display: flex;
+}
+
+.diagram-column {
+	padding-top: 20px;
+	width: 33.3333%;
+	border: solid 1px black;
+}
+
+.header-color {
+	color: white;
+}
+
+.diagram-content {
+	padding: 10px;
+	height: 200px;
+}
+.stockPage-graf {
+	padding-top: 20px;
+	border: solid 1px black;
+}
+
+.graf-content {
+	padding: 10px;
+	height: 200px;
+}
+
+
+
+
+
+/*--- псевдоклассы ---*/
+
+.column-txt:hover {
+	cursor: default;
+	font-weight: 500;
+}
