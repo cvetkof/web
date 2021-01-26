@@ -7,6 +7,8 @@ body {
 
 	display: flex;
 	flex-direction: column;
+
+	background-color: #5c91d210;
 }
 
 
@@ -41,7 +43,6 @@ body {
 .table-table {
 	padding: 10px;
 	height: 500px;
-	border: solid 1px black;
 }
 .stockPage-info {
 	width: 60%;
@@ -91,7 +92,6 @@ body {
 .diagram-column {
 	padding-top: 20px;
 	width: 33.3333%;
-	border: solid 1px black;
 }
 
 .header-color {
@@ -104,7 +104,6 @@ body {
 }
 .stockPage-graf {
 	padding-top: 20px;
-	border: solid 1px black;
 }
 
 .graf-content {
