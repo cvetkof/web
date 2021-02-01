@@ -7,8 +7,6 @@ body {
 
 	display: flex;
 	flex-direction: column;
-
-	background-color: #5c91d210;
 }
 
 
@@ -78,7 +76,7 @@ body {
 
 .column-txt {
 	font-size: 1.2rem;
-	padding: 10px;
+	margin: 10px;
 }
 
 .rub::after {

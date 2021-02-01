@@ -7,8 +7,6 @@ body {
 
 	display: flex;
 	flex-direction: column;
-
-	background-color: #5c91d210;
 }
 
 *,
@@ -20,17 +18,31 @@ body {
 
 
 
+
 /* ---main--- */
 
+.main {
+	display: flex;
+}
+
+.main-content {
+	width: 100%;
+	padding: 5px 10px;
+	transition: margin 0.4s ease;
+}
+
+.main-content.click-for-sidebar-btn {
+	margin-left: 250px;
+}
+
 .row {
-	margin: 5px 10px 0 10px;
+	/* margin: 5px 10px 0 10px; */
 }
 
 .row-main {
 	display: flex;
 	align-items: center;
-	/* box-shadow: 0 0 3px #0458f362; */
-	background-color: #1f334b;
+	background-color: #162435;
 	border-radius: 3px;
 }
 
@@ -45,11 +57,7 @@ body {
 	justify-content: space-between;
 	max-width: 350px;
 	padding: 5px;
-	margin-left: 15px;
-}
-
-.first-line {
-	visibility: hidden;
+	margin-left: 10px;
 }
 
 .row-column-header {
@@ -98,7 +106,9 @@ body {
 .row-column-3-row {
 	display: flex;
 	justify-content: space-between;
-	padding: 0 0 0 0px;
+	padding: 2px 2px 2px 15px;
+	transition: background-color 0.2s;
+	border-left: 1px solid transparent;
 }
 
 .row-column-header-3 {
@@ -116,14 +126,16 @@ body {
 
 .block-header-3 {
 	color: white;
+	font-size: 0.9rem;
 }
 
 .row-column-txt-3 {
-	font-size: 1rem;
+	font-size: 0.9rem;
 	transition: color 0.1s linear;
 	color: white;
 	padding-right: 5px;
 }
+
 
 
 
@@ -134,7 +146,7 @@ body {
 .mainwindow {
 	display: flex;
 	flex: 1 1 auto;
-	margin: 10px;
+	margin-top: 10px;
 }
 
 .mainwindow-table {
@@ -210,20 +222,14 @@ body {
 
 /* ---псевдоклассы--- */
 
+.row-column-3-row:hover {
+	background-color: #20354e;
+	border-left-color: #5c92d280;
+}
+
 .row-column-txt:hover {
 	cursor: default;
-	/* color: #000272; */
 	font-weight: 500;
-}
-
-.row-column-txt-3:hover {
-	font-weight: 500;
-	cursor: default;
-	/* color: #000272; */
-}
-
-.header-nav-link:hover {
-	color: #bce1f7;
 }
 
 
