@@ -49,6 +49,10 @@
 	line-height: 25px;
 }
 
+.sidebar ul a {
+	transition: background-color 0.2s;
+}
+
 .sidebar ul li a span {
 	position: absolute;
 	top: 50%;
