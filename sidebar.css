@@ -39,8 +39,11 @@
 }
 
 .change-show {
-	/* position: static; */
 	display: none;
+}
+
+.change-show.show {
+	display: block;
 }
 
 .sidebar ul ul a {
@@ -58,12 +61,8 @@
 	top: 50%;
 	right: 20px;
 	transform: translateY(-50%);
-	font-size: 20px;
+	font-size: 15px;
 	transition: transform 0.3s;
-}
-
-.change-show.show {
-	display: block;
 }
 
 .sidemenu {
@@ -78,7 +77,7 @@
 
 .sidemenu-text {
 	color: white;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	letter-spacing: 1px;
 	font-weight: 600;
 }
@@ -115,6 +114,9 @@
 	content: '\f00d';
 }
 
+.first.rotate{
+	transform: translateY(-50%) rotate(-180deg);
+}
 
 
 
@@ -125,8 +127,4 @@
 	color: #bce1f7;
 	background-color: #20354e;
 	border-left-color: #5c92d280;
-}
-
-.sidebar ul li a span.rotate{
-	transform: translateY(-50%) rotate(-180deg);
 }
