@@ -26,6 +26,7 @@ document.querySelector('.row-column-3-row').onmouseover = () => {
 	document.querySelector('.row-column-txt-3').style.color = '#bce1f7';
 	document.querySelector('.row-column-3-row').onmouseout = () => {
 		document.querySelector('.block-header-3').style.color = 'white';
+		document.querySelector('.row-column-txt-3').style.color = 'white';
 	}
 };
 

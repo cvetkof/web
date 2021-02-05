@@ -33,6 +33,11 @@
 	z-index: 2;
 }
 
+.header-name span {
+	color: rgb(0, 174, 255);
+	font-size: 1.2rem;
+}
+
 .header-name-link {
 	font-weight: 600;
 	font-size: 1.2rem;
@@ -80,7 +85,7 @@
 
 .row-name {
 	font-size: 1.1rem;
-	font-weight: 600;
+	font-weight: 700;
 	letter-spacing: 2px;
 	color: #1f334b;
 	text-align: center;
@@ -88,13 +93,6 @@
 	width: 100%;
 	position: absolute;
 }
-
-.line {
-	width: 1px;
-	height: 100px;
-	background-color: #5c92d280;
-}
-
 
 
 

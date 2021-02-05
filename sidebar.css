@@ -13,9 +13,10 @@
 
 .sidemenu-text {
 	text-align: center;
-	line-height: 40px;
+	line-height: 35px;
 	margin-left: -5px;
 	background-color: #1e3149;
+	margin-bottom: 15px;
 }
 
 .sidebar ul {
@@ -108,6 +109,10 @@
 	font-size: 20px;
 	line-height: 25px;
 	color: white;
+}
+
+.sidebar-btn.click {
+	position: fixed;
 }
 
 .sidebar-btn.click span:before {

@@ -138,6 +138,13 @@ body {
 	padding-right: 5px;
 }
 
+.line {
+	width: 1px;
+	height: 100px;
+	background-color: #5c92d280;
+}
+
+
 
 
 
