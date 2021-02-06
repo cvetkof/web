@@ -129,11 +129,12 @@ body {
 .block-header-3 {
 	color: white;
 	font-size: 0.9rem;
+	transition: color 0.2s;
 }
 
 .row-column-txt-3 {
 	font-size: 0.9rem;
-	transition: color 0.1s linear;
+	transition: color 0.2s;
 	color: white;
 	padding-right: 5px;
 }
@@ -234,6 +235,14 @@ body {
 .row-column-3-row:hover {
 	background-color: #20354e;
 	border-left-color: #5c92d280;
+}
+
+.row-column-3-row:hover .row-column-txt-3 {
+	color: #bce1f7;
+}
+
+.row-column-3-row:hover .block-header-3 {
+	color: #bce1f7;
 }
 
 .row-column-txt:hover {

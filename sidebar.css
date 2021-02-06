@@ -55,6 +55,7 @@
 
 .sidebar ul a {
 	transition: background-color 0.2s;
+	transition: color 0.2s;
 }
 
 .sidebar ul li a span {
