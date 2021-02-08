@@ -91,11 +91,23 @@ body {
 }
 
 .row-column-txt-s::after {
-	content: "  $";
+	content: " $";
 }
 
 .row-column-txt-e::after {
-	content: "  €";
+	content: " €";
+}
+
+.row-column-txt-r.change::before {
+	content: "+";
+}
+
+.row-column-txt-s.change::before {
+	content: "+";
+}
+
+.row-column-txt-e.change::before {
+	content: "+";
 }
 
 .row-column-valuta {

@@ -25,9 +25,12 @@ let allCostsEuro = document.querySelectorAll('.row-column-txt-e')[0];
 let changeForDayDollar = document.querySelectorAll('.row-column-txt-s')[1];
 let changeForDayEuro = document.querySelectorAll('.row-column-txt-e')[1];
 
-allCostsDollar.textContent = (allCosts / dollar).toFixed(1);
+allCostsDollar.innerHTML = `${(allCosts / dollar).toFixed(0)}.<small>${((allCosts / dollar) % 1).toFixed(1) * 10}<small/>`;
+
 allCostsEuro.textContent = (allCosts / euro).toFixed(1);
 changeForDayDollar.textContent = (changeForDay / dollar).toFixed(1);
 changeForDayEuro.textContent = (changeForDay / euro).toFixed(1);
+
+console.log(document.querySelectorAll('small'));
 
 
