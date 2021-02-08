@@ -18,7 +18,16 @@ document.querySelector('.sidebar-btn').onclick = () => {
 
 let dollar = document.querySelectorAll('.row-column-txt-s')[2].textContent;
 let euro = document.querySelectorAll('.row-column-txt-e')[2].textContent;
-console.log(dollar);
-console.log(euro);
+let allCosts = document.querySelectorAll('.row-column-txt-r')[0].textContent;
+let changeForDay = document.querySelectorAll('.row-column-txt-r')[1].textContent;
+let allCostsDollar = document.querySelectorAll('.row-column-txt-s')[0];
+let allCostsEuro = document.querySelectorAll('.row-column-txt-e')[0];
+let changeForDayDollar = document.querySelectorAll('.row-column-txt-s')[1];
+let changeForDayEuro = document.querySelectorAll('.row-column-txt-e')[1];
+
+allCostsDollar.textContent = (allCosts / dollar).toFixed(1);
+allCostsEuro.textContent = (allCosts / euro).toFixed(1);
+changeForDayDollar.textContent = (changeForDay / dollar).toFixed(1);
+changeForDayEuro.textContent = (changeForDay / euro).toFixed(1);
 
 
