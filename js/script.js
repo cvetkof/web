@@ -16,8 +16,9 @@ document.querySelector('.sidebar-btn').onclick = () => {
 
 // подсчет денег в долларах и евро
 
-let dollar = document.querySelectorAll('.row-column-txt-s')[2].textContent;
-let euro = document.querySelectorAll('.row-column-txt-e')[2].textContent;
+let dollar = 73.98;
+let euro = 89.55;
+
 let allCosts = document.querySelectorAll('.row-column-txt-r')[0].textContent;
 let changeForDay = document.querySelectorAll('.row-column-txt-r')[1].textContent;
 let allCostsDollar = document.querySelectorAll('.row-column-txt-s')[0];
@@ -25,10 +26,10 @@ let allCostsEuro = document.querySelectorAll('.row-column-txt-e')[0];
 let changeForDayDollar = document.querySelectorAll('.row-column-txt-s')[1];
 let changeForDayEuro = document.querySelectorAll('.row-column-txt-e')[1];
 
-allCostsDollar.innerHTML = `${(allCosts / dollar).toFixed(0)}.<small>${((allCosts / dollar) % 1).toFixed(1) * 10}<small/>`;
-allCostsEuro.innerHTML = `${(allCosts / euro).toFixed(0)}.<small>${((allCosts / euro) % 1).toFixed(1) * 10}<small/>`;
-changeForDayDollar.innerHTML = `${(changeForDay / dollar).toFixed(0)}.<small>${((changeForDay / dollar) % 1).toFixed(1) * 10}<small/>`
-changeForDayEuro.innerHTML = `${(changeForDay / euro).toFixed(0)}.<small>${((changeForDay / euro) % 1).toFixed(1) * 10}<small/>`
+allCostsDollar.innerHTML = `${(allCosts / dollar).toFixed(0)}.<small>${((allCosts / dollar) % 1).toFixed(2) * 100}</small>`;
+allCostsEuro.innerHTML = `${(allCosts / euro).toFixed(0)}.<small>${((allCosts / euro) % 1).toFixed(2) * 100}</small>`;
+changeForDayDollar.innerHTML = `${(changeForDay / dollar).toFixed(0)}.<small>${((changeForDay / dollar) % 1).toFixed(2) * 100}</small>`
+changeForDayEuro.innerHTML = `${(changeForDay / euro).toFixed(0)}.<small>${((changeForDay / euro) % 1).toFixed(2) * 100}</small>`
 
-
-
+document.querySelectorAll('.row-column-txt-s')[2].innerHTML = `${Math.trunc(dollar)}.<small>${Math.trunc((dollar % 1).toFixed(2) * 100)}</small>`;
+document.querySelectorAll('.row-column-txt-e')[2].innerHTML = `${Math.trunc(euro)}.<small>${Math.trunc((euro % 1).toFixed(2) * 100)}</small>`;
