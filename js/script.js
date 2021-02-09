@@ -16,8 +16,8 @@ document.querySelector('.sidebar-btn').onclick = () => {
 
 // подсчет денег в долларах и евро
 
-let dollar = 73.98;
-let euro = 89.55;
+let dollar = 73.98; //текущий курс доллара
+let euro = 89.55; // текущий курс евро
 
 let allCosts = document.querySelectorAll('.row-column-txt-r')[0].textContent;
 let changeForDay = document.querySelectorAll('.row-column-txt-r')[1].textContent;
@@ -31,5 +31,7 @@ allCostsEuro.innerHTML = `${(allCosts / euro).toFixed(0)}.<small>${((allCosts / 
 changeForDayDollar.innerHTML = `${(changeForDay / dollar).toFixed(0)}.<small>${((changeForDay / dollar) % 1).toFixed(2) * 100}</small>`
 changeForDayEuro.innerHTML = `${(changeForDay / euro).toFixed(0)}.<small>${((changeForDay / euro) % 1).toFixed(2) * 100}</small>`
 
-document.querySelectorAll('.row-column-txt-s')[2].innerHTML = `${Math.trunc(dollar)}.<small>${Math.trunc((dollar % 1).toFixed(2) * 100)}</small>`;
-document.querySelectorAll('.row-column-txt-e')[2].innerHTML = `${Math.trunc(euro)}.<small>${Math.trunc((euro % 1).toFixed(2) * 100)}</small>`;
+document.querySelectorAll('.row-column-txt-s')[2].innerHTML =
+	`${Math.trunc(dollar)}.<small>${Math.trunc((dollar % 1).toFixed(2) * 100)}</small>`;
+document.querySelectorAll('.row-column-txt-e')[2].innerHTML =
+	`${Math.trunc(euro)}.<small>${Math.trunc((euro % 1).toFixed(2) * 100)}</small>`;
