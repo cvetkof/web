@@ -113,7 +113,7 @@ body {
 .row-column-valuta {
 	display: flex;
 	margin: 15px auto;
-	max-width: 300px;
+	max-width: 350px;
 	justify-content: space-around;
 }
 
