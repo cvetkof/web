@@ -35,3 +35,13 @@ document.querySelectorAll('.row-column-txt-s')[2].innerHTML =
 	`${Math.trunc(dollar)}.<small>${Math.trunc((dollar % 1).toFixed(2) * 100)}</small>`;
 document.querySelectorAll('.row-column-txt-e')[2].innerHTML =
 	`${Math.trunc(euro)}.<small>${Math.trunc((euro % 1).toFixed(2) * 100)}</small>`;
+
+
+
+(function () {
+	$("#dataGrid").dxDataGrid({
+		// Configuration goes here
+		dataSource: employees,
+		keyExpr: "EmployeeID",
+	});
+});
