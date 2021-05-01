@@ -40,8 +40,6 @@ document.querySelectorAll('.row-column-txt-e')[2].innerHTML =
 
 (function () {
 	$("#dataGrid").dxDataGrid({
-		// Configuration goes here
-		dataSource: employees,
-		keyExpr: "EmployeeID",
+
 	});
 });
